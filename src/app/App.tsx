@@ -344,7 +344,7 @@ export default function App() {
               </h2>
               <GlowDivider color="via-amber-500/50" />
               <p className="font-['Work_Sans'] text-lg md:text-xl leading-relaxed text-gray-300 mt-8">
-                For millennia, Asia's civilizations lived in delicate balance with nature. Rice terraces carved into mountainsides, monsoon rhythms governing life, and ecosystems that sustained billions. This was not untouched wilderness, but human presence woven into the natural fabric—adaptation, not domination.
+                
               </p>
             </div>
           </Reveal>
@@ -354,15 +354,43 @@ export default function App() {
       {/* ═══ TRANSITION ═══ */}
       <section className="relative py-44 px-6 bg-gradient-to-b from-[#060608] via-zinc-950 to-[#060608] overflow-hidden">
         <Particles count={20} color="rgba(239,68,68,0.06)" />
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto ">
           <Reveal>
             <motion.p
-              className="font-['Crimson_Pro'] text-5xl md:text-7xl italic text-gray-500"
-              whileInView={{ color: '#e5e5e5' }}
+              className=" font-['Work_Sans'] text-xl leading-relaxed text-gray-500"
+             
               viewport={{ once: true }}
               transition={{ duration: 2 }}
             >
-              Then, everything changed.
+              Maksim has probably heard of Nusantara by now. Since its announcement in 2019, the new capital has been quite the buzz in Indonesian public life. Even its name, an Old Javanese word for "archipelago," evokes the full sweep of Indonesian civilization. Carved out of the rainforests of East Kalimantan, it was conceived as everything Jakarta was not. Green, smart, sustainable, and something worth believing in.
+              <br></br><br></br>
+
+              And people do believe. 
+              <br></br><br></br>
+              The thing about megaprojects is that they aren’t just construction endeavours. They seem to arrive carrying the aching hope for folks like Maksim that things are finally about to change. That the better life, the one that always seemed to belong to someone else, somewhere else, is now being built for you. 
+              <br></br><br></br>
+              However, this is the aforementioned 'dangling carrot' in its architectural form. The renderings do not show what gets cleared to make room for these megaprojects. Development in Asia does not operate through a single coherent rationality, but through multiple overlapping governmentalities pulling simultaneously in different directions (Fletcher, 2017). Nusantara is marketed under a neoliberal sustainability discourse - solar panels, electric vehicles, a forest city harmonious with nature - while a sovereign rationality drives the speed and scale of construction, and a disciplinary one manages the communities displaced in the process. These contradictions somehow produce a vision coherent enough to inspire belief, while remaining structurally incompatible in practice.
+              <br></br><br></br>
+              In Nusantara’s case, it is the environment bearing the cost of these competing rationalities. Over 2,000 hectares of mangrove forest are wiped out - an area of forest more than three times the size of Singapore vanished in Indonesia last year, leaving environmental groups and nearby communities deeply concerned. This is a form of slow violence, a harm that accumulates gradually and out of sight, subtle enough to be absorbed into the landscape before it can be named as a crisis (Nixon, 2011). And unfortunately, the sustainability rhetoric seems to obscure deforestation.
+              <br></br><br></br>
+              “Nusantara is just another driver of deforestation. This is contrary to the green city jargon we heard a lot of times. There’s nothing green in Nusantara.”  
+              <br></br>
+              - Anggi Putra Prayoga, communications manager at Forest Watch Indonesia (FWI), a non-governmental organisation. 
+              <br></br><br></br>
+              Environment aside, the human costs are just as stark. The Balik, an indigenous community in Sepaku along the Kalimantan river, report flooded fields and poisoned water and have been actively protesting the very project that claimed to benefit Indonesians. In March 2023, dozens of Balik residents, including traditional leaders, women, and youth, put up banners across their village rejecting forced eviction from ancestral lands they have occupied for generations. 
+              <br></br><br></br>
+              The notion that they must protest at all is telling. Authoritarian environmental governance suggests this is structurally predictable (Li & Zinda, 2023). States that move fast on development often do so by skipping the conversations that would make those decisions accountable to the people most affected.
+              <br></br><br></br>
+              When we see such situations, it is worth asking whether the communities or ecosystems that bear these costs aren’t simply unfortunate casualties of progress, but structurally positioned to expedite someone else's promise.
+              <br></br><br></br>
+              As we travel across the South China Sea to Malaysia, the trajectory reaches a more unsettling perspective - what happens if after all that work, not much actually comes into proportionate fruition? 	A phenomenon often described as ‘ghost cities’.
+                <br></br><br></br>      
+              Introduced as a ‘dream paradise for all mankind’, Forest City was conceived as an ambitious, future-facing development on reclaimed land in the Straits of Johor (BBC News, 2023). Planned across four artificial islands, it was envisioned as a home for close to a million people, a future-facing city shaped by global mobility and investment (News.com.au, 2023). Yet, much of its appeal was directed toward international buyers. For many Malaysians, the development remained somewhat financially distant. The future it projected seemed to hover just beyond the people living closest to it (The Malaysian Insight, 2018). 
+              <br></br><br></br>
+              Over time, the conditions that sustained this vision began to shift. Changes in capital flows, the disruptions of the COVID-19 pandemic, and broader economic and political recalibrations gradually reshaped demand (Al Jazeera, 2023). Forest City now stands as a partial realisation of its original ambition. A beachside playground bears the marks of time and weather. A small children’s train continues its quiet circuit through corridors that echo more than they fill. 
+              <br></br><br></br>
+              What places like this reveal is not just the haunting image of what could’ve been, but the nature of the vision itself. The ‘dangling carrot’ of development does not rely on full realisation to exert its force. As it turns out, the hunger to build has a much longer history than any single megaproject. The urgency that drives these visions, and frames development as not just desirable but existentially necessary, did not emerge from nowhere. It was produced, in large part, by the very forces that spent centuries preventing it.
+
             </motion.p>
           </Reveal>
           <GlowDivider color="via-red-600/60" />
