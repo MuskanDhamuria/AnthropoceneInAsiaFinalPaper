@@ -177,7 +177,7 @@ export default function App() {
       {/* ═══ HERO ═══ */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <ParallaxImage
-          src="https://images.unsplash.com/photo-1567216369677-21344239454d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxhc2lhJTIwY2l0eSUyMHNreWxpbmUlMjBwb2xsdXRpb24lMjBzbW9nfGVufDF8fHx8MTc3NjE2MTY3NHww&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/intro.jpg"
           alt="Urban Asia shrouded in smog"
           overlay="bg-gradient-to-b from-black/80 via-black/50 to-[#060608]"
         />
@@ -243,7 +243,7 @@ export default function App() {
         <div className="max-w-4xl mx-auto">
           <Reveal>
             <p className="font-['Crimson_Pro'] text-3xl md:text-5xl leading-snug mb-12 text-gray-200">
-              We are living in the{' '}
+              {' '}
               <motion.span
                 className="text-amber-400 italic inline-block"
                 whileInView={{ backgroundSize: '100% 2px' }}
@@ -252,14 +252,68 @@ export default function App() {
                 transition={{ duration: 1, delay: 0.5 }}
                 style={{ backgroundImage: 'linear-gradient(to right, #f59e0b, #f59e0b)', backgroundPosition: 'bottom left', backgroundRepeat: 'no-repeat' }}
               >
-                Age of Humans
+                Introduction
               </motion.span>
-              —an epoch where our species has become the dominant force reshaping the planet.
+              
             </p>
           </Reveal>
           <Reveal delay={0.3}>
             <p className="font-['Work_Sans'] text-xl leading-relaxed text-gray-500">
-              Nowhere is this transformation more dramatic, more visible, and more consequential than in Asia, home to 60% of humanity and the frontline of our planet's most profound changes.
+              Somewhere in Jakarta, an old man named Maksim, whose story is drawn from documentary footage of the city’s sinking coastline, carefully lowers himself towards the water. Surrounding them is the wreckage of his former residence drifting on the surface. He gets into his weathered fishing boat, which groans and sways beneath him. It is all he has left, where he now sleeps and calls ‘home’.
+
+              <span className="block my-10">
+                <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
+                  <ImageWithFallback
+                    src="/fig1.png"
+                    alt="Maksim getting into his fishing boat"
+                    className="w-full h-auto object-cover"
+                  />
+                </span>
+                <span className="block mt-3 text-sm leading-relaxed text-gray-600">
+                  Maksim getting into his fishing boat (From "Why Jakarta is Sinking" by Vox, 2021, YouTube).
+                </span>
+              </span>
+
+              <span className="block my-10">
+                <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
+                  <ImageWithFallback
+                    src="/fig2.png"
+                    alt="Maksim's fishing boat as a home"
+                    className="w-full h-auto object-cover"
+                  />
+                </span>
+                <span className="block mt-3 text-sm leading-relaxed text-gray-600">
+                  Maksim's fishing boat for a home (From "Why Jakarta is Sinking" by Vox, 2021, YouTube).
+                </span>
+              </span>
+              Many people across Indonesia, especially fishermen like Maksim, live at the mercy of forces beyond their control. Jakarta, the city he calls home, is sinking each day. The very waters that sustain men like him, that carry his boat out to sea every morning and put food on his table, are the same waters that slowly swallow all he has on land. 
+              <br></br><br></br>
+              Maksim mentions that to counter this, seawalls have been erected as a promise of protection, for life as they knew it against the encroaching tide. 
+              <br></br><br></br>
+              But the promise has proven hollow. Even the walls are sinking now.
+              <br></br><br></br>
+              “Build, add a meter, sink, add another meter…” he says, pointing at the old embankments, which have already been built four times. It is never finished.
+              
+              <span className="block my-10">
+                <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
+                  <ImageWithFallback
+                    src="/fig3.png"
+                    alt="Maksim pointing at old embankments in Jakarta"
+                    className="w-full h-auto object-cover"
+                  />
+                </span>
+                <span className="block mt-3 text-sm leading-relaxed text-gray-600">
+                  Maksim pointing at old embankments in Jakarta (From "Why Jakarta is Sinking" by Vox, 2021, YouTube).
+                </span>
+              </span>
+
+              "Never finished" is not merely an observation about construction timelines, but a condition of being. As megaproject after megaproject rises from cleared land and displaced communities, we look at how environmental compromises, history and social hierarchy become sediment into the very promises development makes. Each is announced with the language of transformation, yet it doesn’t seem to do much for the vulnerabilities it claimed to resolve. And as such, some communities remain peripheral, not despite development, but often because of it.
+              <br></br><br></br>
+              This raises the central question; how is it that development runs so ceaselessly, yet produces such little change for those who need it? To answer this, we’ll explore how the hunger for development is inseparable from the wounds of colonialism, and systematic extraction that leaves regions with the infrastructure of exploitation rather than foundations to flourish. We’ll also see how despite unfavourable circumstances, hope seems to continue triumphing among communities and enabling development, in its own way.
+              <br></br><br></br>
+              This piece argues that Asia’s ‘permanent construction’ reflects a deeper socio-ecological condition, where historical inequalities, environmental harm, and unevenly distributed hope continuously reproduce the need to build.
+
+
             </p>
           </Reveal>
         </div>
@@ -268,7 +322,7 @@ export default function App() {
       {/* ═══ CHAPTER I: HARMONY ═══ */}
       <section id="chapter-1" data-chapter className="relative min-h-screen flex items-center">
         <ParallaxImage
-          src="https://images.unsplash.com/photo-1640940146276-59a59e1e8a5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx6ZW4lMjBnYXJkZW4lMjBwZWFjZWZ1bCUyMHRlbXBsZSUyMEphcGFufGVufDF8fHx8MTc3NjE2MjMyMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          src="chap1.jpg"
           alt="Zen garden in Asia"
           overlay="bg-gradient-to-r from-black/90 via-black/60 to-black/30"
         />
@@ -286,7 +340,7 @@ export default function App() {
                 Chapter I
               </motion.span>
               <h2 className="font-['Crimson_Pro'] text-5xl md:text-8xl mb-8 bg-gradient-to-r from-amber-200 to-amber-500 bg-clip-text text-transparent">
-                Harmony
+                The Architectural, 'Dangling Carrot' of Promise
               </h2>
               <GlowDivider color="via-amber-500/50" />
               <p className="font-['Work_Sans'] text-lg md:text-xl leading-relaxed text-gray-300 mt-8">
