@@ -328,7 +328,7 @@ export default function App() {
       {/* ═══ CHAPTER I ═══ */}
       <section id="chapter-1" data-chapter className="relative min-h-screen flex items-center">
         <ParallaxImage
-          src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaperchap1.jpg"
+          src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/chap1.jpg"
           alt="Zen garden in Asia"
           overlay="bg-gradient-to-r from-black/90 via-black/60 to-black/30"
         />
