@@ -176,7 +176,7 @@ export default function App() {
       {/* ═══ HERO ═══ */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <ParallaxImage
-          src="/intro.jpg"
+          src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/intro.jpg"
           alt="Urban Asia shrouded in smog"
           overlay="bg-gradient-to-b from-black/80 via-black/50 to-[#060608]"
         />
@@ -263,7 +263,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig1.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig1.png"
                     alt="Maksim getting into his fishing boat"
                     className="w-full h-auto object-cover"
                   />
@@ -279,7 +279,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig2.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig2.png"
                     alt="Maksim's fishing boat as a home"
                     className="w-full h-auto object-cover"
                   />
@@ -301,7 +301,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig3.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig3.png"
                     alt="Maksim pointing at old embankments in Jakarta"
                     className="w-full h-auto object-cover"
                   />
@@ -328,7 +328,7 @@ export default function App() {
       {/* ═══ CHAPTER I ═══ */}
       <section id="chapter-1" data-chapter className="relative min-h-screen flex items-center">
         <ParallaxImage
-          src="chap1.jpg"
+          src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaperchap1.jpg"
           alt="Zen garden in Asia"
           overlay="bg-gradient-to-r from-black/90 via-black/60 to-black/30"
         />
@@ -396,7 +396,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig4.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig4.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -417,7 +417,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig5.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig5.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -435,7 +435,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig6.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig6.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -454,7 +454,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig7.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig7.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -478,7 +478,7 @@ export default function App() {
       {/* ═══ CHAPTER II═══ */}
       <section id="chapter-2" data-chapter className="relative min-h-screen flex items-center">
         <ParallaxImage
-          src="/chap2.png"
+          src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/chap2.png"
           alt="Industrial smokestacks"
           overlay="bg-gradient-to-l from-black/90 via-black/60 to-black/30"
         />
@@ -527,7 +527,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig8.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig8.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -549,7 +549,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig91.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig91.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -565,7 +565,7 @@ export default function App() {
             <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig92.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig92.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -646,7 +646,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig10.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig10.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -667,7 +667,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig11.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig11.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -718,7 +718,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig12.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig12.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
@@ -737,7 +737,7 @@ export default function App() {
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
                   <ImageWithFallback
-                    src="/fig13.png"
+                    src="https://muskandhamuria.github.io/AnthropoceneInAsiaFinalPaper/fig13.png"
                     className="w-full h-auto object-cover"
                   />
                 </span>
