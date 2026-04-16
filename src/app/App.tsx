@@ -163,7 +163,7 @@ export default function App() {
   return (
     <div ref={containerRef} className="min-h-screen bg-[#060608] text-white overflow-x-hidden selection:bg-amber-500/30">
       {/* Progress bar */}
-      <motion.div
+      <motion.div 
         className="fixed top-0 left-0 h-[2px] z-50 origin-left"
         style={{
           scaleX: scrollProgress,
@@ -258,7 +258,7 @@ export default function App() {
           </Reveal>
           <Reveal delay={0.3}>
             <p className="font-['Work_Sans'] text-xl leading-relaxed text-gray-500">
-              Somewhere in Jakarta, an old man named Maksim, whose story is drawn from documentary footage of the city’s sinking coastline, carefully lowers himself towards the water. Surrounding them is the wreckage of his former residence drifting on the surface. He gets into his weathered fishing boat, which groans and sways beneath him. It is all he has left, where he now sleeps and calls ‘home’.
+              Somewhere in Jakarta, an old man named Maksim, whose story is drawn from documentary footage of the city's sinking coastline, carefully lowers himself towards the water. Surrounding him is the wreckage of his former residence drifting on the surface. He gets into his weathered fishing boat, which groans and sways beneath him. It is all he has left, where he now sleeps and calls 'home'.
 
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
@@ -296,7 +296,7 @@ export default function App() {
               <br></br><br></br>
               But the promise has proven hollow. Even the walls are sinking now.
               <br></br><br></br>
-              “Build, add a meter, sink, add another meter…” he says, pointing at the old embankments, which have already been built four times. It is never finished.
+              <i>“Build, add a meter, sink, add another meter…”</i> he says, pointing at the old embankments, which have already been built four times. It is <i>never finished</i>.
               
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
@@ -315,7 +315,7 @@ export default function App() {
 
               "Never finished" is not merely an observation about construction timelines, but a condition of being. As megaproject after megaproject rises from cleared land and displaced communities, we look at how environmental compromises, history and social hierarchy become sediment into the very promises development makes. Each is announced with the language of transformation, yet it doesn’t seem to do much for the vulnerabilities it claimed to resolve. And as such, some communities remain peripheral, not despite development, but often because of it.
               <br></br><br></br>
-              This raises the central question; how is it that development runs so ceaselessly, yet produces such little change for those who need it? To answer this, we’ll explore how the hunger for development is inseparable from the wounds of colonialism, and systematic extraction that leaves regions with the infrastructure of exploitation rather than foundations to flourish. We’ll also see how despite unfavourable circumstances, hope seems to continue triumphing among communities and enabling development, in its own way.
+              This raises the central question;<i> how is it that development runs so ceaselessly, yet produces such little change for those who need it?</i> To answer this, we’ll explore how the hunger for development is inseparable from the wounds of colonialism, and systematic extraction that leaves regions with the infrastructure of exploitation. We’ll also see how despite unfavourable circumstances, hope seems to continue triumphing among communities and enabling development, in its own way.
               <br></br><br></br>
               This piece argues that Asia’s ‘permanent construction’ reflects a deeper socio-ecological condition, where historical inequalities, environmental harm, and unevenly distributed hope continuously reproduce the need to build.
 
@@ -371,17 +371,18 @@ export default function App() {
               Maksim has probably heard of Nusantara by now. Since its announcement in 2019, the new capital has been quite the buzz in Indonesian public life. Even its name, an Old Javanese word for "archipelago," evokes the full sweep of Indonesian civilization. Carved out of the rainforests of East Kalimantan, it was conceived as everything Jakarta was not. Green, smart, sustainable, and something worth believing in.
               <br></br><br></br>
 
-              And people do believe. 
+              And people<i> do </i>believe. 
               <br></br><br></br>
-              The thing about megaprojects is that they aren't just construction endeavours. They seem to arrive carrying the aching hope for folks like Maksim that things are finally about to change. That the better life, the one that always seemed to belong to someone else, somewhere else, is now being built for you. 
+              The thing about megaprojects is that they aren't just construction endeavours. They seem to arrive carrying the aching hope for folks like Maksim that things are finally about to change. That the better life, the one that always seemed to belong to someone else, somewhere else, is now being built for <i>you</i>. 
               <br></br><br></br>
-              However, this is the aforementioned 'dangling carrot' in its architectural form. The renderings do not show what gets cleared to make room for these megaprojects. Development in Asia does not operate through a single coherent rationality, but through multiple overlapping governmentalities pulling simultaneously in different directions (Fletcher, 2017). Nusantara is marketed under a neoliberal sustainability discourse - solar panels, electric vehicles, a forest city harmonious with nature - while a sovereign rationality drives the speed and scale of construction, and a disciplinary one manages the communities displaced in the process. These contradictions somehow produce a vision coherent enough to inspire belief, while remaining structurally incompatible in practice.
+              However, this is the aforementioned 'dangling carrot' in its architectural form. The renderings do not show what gets cleared to make room for these megaprojects. Development in Asia operates through multiple overlapping governmentalities, pulling simultaneously in different directions (Fletcher, 2017). Nusantara, in particular, is marketed under a neoliberal sustainability discourse - solar panels, electric vehicles, a forest city harmonious with nature - while a sovereign rationality drives the speed and scale of construction, and a disciplinary one manages the communities displaced in the process. These contradictions somehow produce a vision coherent enough to inspire belief, while remaining structurally incompatible in practice.
               <br></br><br></br>
-              In Nusantara's case, it is the environment bearing the cost of these competing rationalities. Over 2,000 hectares of mangrove forest are wiped out - an area of forest more than three times the size of Singapore vanished in Indonesia last year, leaving environmental groups and nearby communities deeply concerned. This is a form of slow violence, a harm that accumulates gradually and out of sight, subtle enough to be absorbed into the landscape before it can be named as a crisis (Nixon, 2011). And unfortunately, the sustainability rhetoric seems to obscure deforestation.
+              In Nusantara's case, it is the environment bearing the cost of these competing rationalities. Over 2,000 hectares of mangrove forest are wiped out - an area of forest more than three times the size of Singapore vanished in Indonesia last year, leaving environmental groups and nearby communities deeply concerned. But ironically, the sustainability rhetoric seems to obscure deforestation. This is a form of slow violence, a harm that accumulates gradually and out of sight, subtle enough to be absorbed into the landscape before it can be named as a crisis (Nixon, 2011).
+
               <br></br><br></br>
 
               <motion.blockquote
-              className="font-['Crimson_Pro'] text-xl md:text-xl italic text-center text-gray-400 leading-snug"
+              className="font-['Crimson_Pro'] text-2xl  italic text-center text-gray-400 leading-snug"
               viewport={{ once: true }}
               transition={{ duration: 2 }}
             >
@@ -447,9 +448,9 @@ export default function App() {
                 </span>
               </span>
 
-              Introduced as a 'dream paradise for all mankind', Forest City was conceived as an ambitious, future-facing development on reclaimed land in the Straits of Johor (BBC News, 2023). Planned across four artificial islands, it was envisioned as a home for close to a million people, a future-facing city shaped by global mobility and investment (News.com.au, 2023). Yet, much of its appeal was directed toward international buyers. For many Malaysians, the development remained somewhat financially distant. The future it projected seemed to hover just beyond the people living closest to it (The Malaysian Insight, 2018). 
+              Introduced as a <i>'dream paradise for all mankind'</i>, Forest City was conceived as an ambitious, future-facing development on reclaimed land in the Straits of Johor (BBC News, 2023). Planned across four artificial islands, it was envisioned as a home for close to a million people, a future-facing city shaped by global mobility and investment (News.com.au, 2023). Yet, much of its appeal was directed toward international buyers. For many Malaysians, the development remained somewhat financially distant. The future it projected seemed to hover just beyond the people living closest to it (The Malaysian Insight, 2018). 
               <br></br><br></br>
-              Over time, the conditions that sustained this vision began to shift. Changes in capital flows, the disruptions of the COVID-19 pandemic, and broader economic and political recalibrations gradually reshaped demand (Al Jazeera, 2023). Forest City now stands as a partial realisation of its original ambition. A beachside playground bears the marks of time and weather. A small children’s train continues its quiet circuit through corridors that echo more than they fill. 
+              Over time, the conditions that sustained this vision began to shift. Changes in capital flows, the disruptions of the COVID-19 pandemic, and broader economic and political recalibrations gradually reshaped demand (Al Jazeera, 2023). Today, Forest City now stands as a partial realisation of its original ambition. A beachside playground bears the marks of time and weather. A small children’s train continues its quiet circuit through corridors that echo more than they fill. 
               <br></br>
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
@@ -471,7 +472,7 @@ export default function App() {
 
             </motion.p>
           </Reveal>
-          <GlowDivider color="via-red-600/60" />
+          <GlowDivider color="via-amber-500/50" />
         </div>
       </section>
 
@@ -534,7 +535,7 @@ export default function App() {
                 <span className="block mt-3 text-sm leading-relaxed text-gray-600 text-center">
                   An aerial photo of people in flooded homes in Pasar Minggu district in Jakarta, 2025
                   <br></br>
-                  From AFP, 2025
+                  From Chinadailyhk, 2025
                   <br></br> 
                   https://www.chinadailyhk.com/hk/article/606088 
                 </span>
@@ -637,9 +638,9 @@ export default function App() {
                 <br></br><br></br>
               This is the central paradox. Growth and deprivation do not cancel each other out. Rather, they co-produce each other - a dynamic that David Harvey identifies in capitalist urbanisation, where accumulation and displacement occur simultaneously, generating both wealth and marginality within the same spaces. Cities like Jakarta and Manila expanded through an "informal proletariat” (Davis, 2006), which are populations necessary to the city's economy yet perpetually excluded from its protections.
               <br></br><br></br>
-              But if development produces the very conditions it claims to resolve, the question becomes whether progress is possible without repeating that violence. The notion of the pluriverse suggests that non-violent progress already exists in the practices that formal development tends to erase. That is, communities maintaining ancestral land relationships, fisherfolk managing coastal ecosystems across generations, informal networks sustaining livelihoods outside the state's legibility (Escobar, 2018). Non-violent progress, then, is less about constructing anew and more about protecting what survives the bulldozer, resourcing existing systems of sustenance rather than clearing them to accommodate someone else's vision of the future.
+              But if development produces the very conditions it claims to resolve, the question becomes whether progress is possible without repeating that violence. The notion of the pluriverse suggests that non-violent progress already exists in the practices that formal development tends to erase. That is, communities maintaining ancestral land relationships, fisherfolk managing coastal ecosystems across generations, informal networks sustaining livelihoods outside the state's legibility (Escobar, 1995). Non-violent progress, then, is less about constructing anew and more about protecting what survives the bulldozer, resourcing existing systems of sustenance rather than clearing them to accommodate someone else's vision of the future.
               <br></br><br></br>
-              What happens when that logic is ignored is visible along the Ciliwung River. Communities that had existed for generations were evicted in 2015 and 2016 under a flood mitigation programme tied to the development of the Sudirman Central Business District and MRT, which were celebrated elsewhere as a landmark of urban modernisation (The Jakarta Post, 2016). Their homes were replaced not with housing for the displaced but with a concrete riverbank, cleaner and more manageable for the city's image as much as its hydrology. Development was not delivered to the Ciliwung community as much as it was over them. And yet the city kept building, and people kept arriving, because Jakarta, for all that it withholds, still offers more than the villages they left behind.
+              However, what happens when that logic is ignored is visible along the Ciliwung River. Communities that had existed for generations were evicted in 2015 and 2016 under a flood mitigation programme tied to the development of the Sudirman Central Business District and MRT, which were celebrated elsewhere as a landmark of urban modernisation (The Jakarta Post, 2016). Instead of obtaining new housing, there was simply a concrete riverbank that was cleaner and more manageable for the city. As such, development was not delivered to the Ciliwung community as much as it was over them. And yet the city kept building, and people kept arriving, because Jakarta, for all that it withholds, still offers more than the villages they left behind.
               <br></br>
 
 
@@ -659,9 +660,9 @@ export default function App() {
                 </span>
               </span>
 
-              What sustains that preference over time is visibility. Jakarta makes mobility legible in ways that rural Kalimantan cannot. You can see who has moved, trace the neighbour who arrived a decade before you and now runs a small workshop, whose daughter is in university. That observability keeps aspiration structurally alive, less a feeling than a social fact, continuously renewed by evidence of real movement around you. And for many, to be in Jakarta, even in its margins, is to be in proximity to something that might compound differently for your children.
+              What sustains that preference over time, strangely, is visibility. Jakarta makes mobility legible in ways that rural Kalimantan cannot. You can see who has moved, trace the neighbour who arrived a decade before you and now runs a small workshop, whose daughter is in university. That observability keeps aspiration structurally alive, less a feeling than a social fact, continuously renewed by evidence of real movement around you. And for many, to be in Jakarta, even in its margins, is to be in proximity to something that might compound differently for your children.
               <br></br><br></br>  
-              Such communities are not passively banking on hope. Rather, they are using hope to build. Whether it be a house constructed room by room as remittances allow, or a community organisation negotiating with local governments over demolition timelines, or buying years of stability through careful relationship-building (Asian Development Bank, 2014). Across Asia, these small architectures of survival accumulate into a larger, collective insistence on remaining, on persisting, even when circumstances may not be immediately in their favour.
+              Such communities are therefore not passively banking on hope. Rather, they are using hope to build. Whether it be a house constructed room by room as remittances allow, or a community organisation negotiating with local governments over demolition timelines, or buying years of stability through careful relationship-building (Asian Development Bank, 2014). Across Asia, these small architectures of survival accumulate into a larger, collective insistence on remaining, on persisting, even when circumstances may not be immediately in their favour.
               <br></br>
 
               <span className="block my-10">
@@ -713,7 +714,7 @@ export default function App() {
                 <br></br><br></br>      
               The gap between the ambitions of development and the needs of people is real, but it can be narrowed. As more attention is paid to who benefits, who is consulted, and who is left out, development can become less about distant futures and more about present realities. 
                 <br></br><br></br>
-               And, there is reason to be hopeful in that possibility. Because even where large plans fall short, people continue to build lives with what they have. They adapt, rebuild and move forward – even if it means enjoying a simple meal amidst floodwaters (SimpleJoy, 2025). That persistence in and of itself is a form of development, more than the biggest megaprojects could claim.
+               And, to conclude on a personal note, maybe there is reason to be hopeful in that possibility. Because even where large plans fall short, people continue to build lives with what they have. They adapt, rebuild and move forward – even if it means enjoying a simple meal amidst floodwaters (SimpleJoy, 2025). That persistence in and of itself is a form of development, more than the biggest megaprojects could claim.
              
               <span className="block my-10">
                 <span className="block rounded-sm overflow-hidden border border-white/10 bg-black/30">
@@ -730,8 +731,7 @@ export default function App() {
                 </span>
               </span>
 
-              Maybe one day, Maksim won't have to sleep in a fishing boat, rocked to sleep by the same waters that keep taking what little he has on land. But until then, he rows out each morning anyway, carrying with him the same hope that has outlasted every sunken wall. It is never finished, but neither is he.
-              
+              And so, Maksim crosses my mind once more. Maybe one day, he won't have to sleep in a fishing boat, rocked to sleep by the same waters that keep taking what little he has on land. But until then, he rows out each morning anyway, carrying with him the same hope that has outlasted every sunken wall. And it is because of  folks like him, and their tenacity, that I believe in the continuous development of Asia. <i>It might never be finished, but neither will he.</i>              
               <br></br><br></br>
               
               <span className="block my-10">
@@ -755,7 +755,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ═══ CLOSING ═══ */}
+      {/* ═══ references ═══ */}
       <section className="relative py-48 px-6 bg-gradient-to-b from-[#060608] to-black overflow-hidden">
         <Particles count={30} color="rgba(245,158,11,0.05)" />
         <div className="max-w-4xl mx-auto ">
@@ -795,6 +795,8 @@ export default function App() {
               <br></br><br></br>
               Reid, A. (1988). Southeast Asia in the age of commerce, 1450–1680. Yale University Press.
               <br></br><br></br>
+              Severe flooding strikes Jakarta, surrounding cities after heavy rain. (2025). Chinadailyhk. https://www.chinadailyhk.com/hk/article/606088 
+              <br></br><br></br>
               SimpleJoy. (2025). Jakarta is flooded again. People eat noodles and move on. Medium. https://adriatni.medium.com/jakarta-is-flooded-again-people-eat-noodles-and-move-on-e50752902f40 
               <br></br><br></br>
               The Borgen Project. (n.d). 10 Facts About Slums in Manila. https://borgenproject.org/10-facts-about-slums-in-manila/ 
@@ -802,8 +804,6 @@ export default function App() {
               The Jakarta Post. (2016). Dozens of Kampung Pulo evictees are at risk of losing new homes. https://www.thejakartapost.com/news/2016/04/12/dozens-of-kampung-pulo-evictees-at-risk-of-losing-new-homes.html 
               <br></br><br></br>
               The Jakarta Post. (2019). Dry season turns Ciliwung River black and smelly. https://www.thejakartapost.com/news/2019/07/27/dry-season-turns-ciliwung-river-black-and-smelly.html 
-              <br></br><br></br>
-              The Jakarta Post. (2026). Jakarta sinks deeper amid flood risks. https://www.chinadailyhk.com/hk/article/628034
               <br></br><br></br>
               The Malaysian Insight. (2018). Johor's Forest City 'too expensive' for Malaysians, says developer. The Malaysian Insight. https://www.themalaysianinsight.com/s/94975
               <br></br><br></br>
